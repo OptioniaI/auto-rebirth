@@ -1,0 +1,7 @@
+_G.REB = true
+while _G.REB == true do
+wait()
+game:GetService("ReplicatedStorage").Events.Rebirth:FireServer()
+game:GetService("ReplicatedStorage").rEvents.rebirthEvent:FireServer()
+game:GetService("ReplicatedStorage").Rebirth:FireServer()
+end
